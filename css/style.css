@@ -1,0 +1,37 @@
+.tab-wrap {
+    width: 450px;
+    margin: 150px auto;
+}
+
+.tab-item {
+    overflow: hidden;
+    zoom: 1;
+    background: #000;
+    border: 1px solid #000;
+}
+
+.tab-item li {
+    float: left;
+    color: #fff;
+    height: 30px;
+    cursor: pointer;
+    line-height: 30px;
+    padding: 0 20px;
+}
+
+.tab-item li.tab-current {
+    color: #000;
+    background: #ccc;
+}
+
+.tab-content {
+    border: 1px solid #000;
+    border-top-width: 0;
+}
+
+.tab-content ul {
+    line-height: 25px;
+    display: none;
+    margin: 0 30px;
+    padding: 10px 0;
+}
